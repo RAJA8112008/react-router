@@ -6,6 +6,9 @@ const Labs = () => {
   function ClickHandler(){
     Navigate('/about');
   }
+  function backHandler(){
+    Navigate(-1);
+  }
   return (
     <div>
     <div>
@@ -13,6 +16,7 @@ const Labs = () => {
     </div>
      <div>
       <button onClick={ClickHandler}>Move to About page</button>
+      <button onClick={backHandler}>Go back</button>
     </div>
     </div>
   )
