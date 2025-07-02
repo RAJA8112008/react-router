@@ -7,6 +7,7 @@ import Labs from './Components/Labs';
 import Home from './Components/Home';
 import About from './Components/About';
 import { Link } from 'react-router-dom';
+import MainHeader from './Components/MainHeader';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         </ul>
       </nav>
      <Routes>
-      <Route path='/' element={<Home/>}>
+      <Route path='/' element={<MainHeader/>}>
+      <Route index element={<Home/>}/>
       <Route path='/support' element={<Support/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/labs' element={<Labs/>}/>
