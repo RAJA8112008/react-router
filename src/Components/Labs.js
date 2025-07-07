@@ -17,6 +17,7 @@ const Labs = () => {
      <div>
       <button onClick={ClickHandler}>Move to About page</button>
       <button onClick={backHandler}>Go back</button>
+      
     </div>
     </div>
   )
