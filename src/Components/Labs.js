@@ -10,6 +10,9 @@ const Labs = () => {
     Navigate(-1);
   }
   return (
+
+
+    
     <div>
     <div>
       This is labs page
